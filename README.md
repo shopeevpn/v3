@@ -1,6 +1,6 @@
 # 1ST
 ```
-apt update -y && apt upgrade -y && apt full-upgrade -y
+apt update -y && apt upgrade -y --fix-missing && apt full-upgrade -y && update-grub
 ```
 
 # 2ND
